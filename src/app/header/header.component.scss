@@ -1,0 +1,41 @@
+@import '../colors';
+
+header {
+    background: $white_color;
+    padding: 0;
+    border-bottom: 1px solid $primary_color;
+}
+
+a {
+    color: $secondary_color;
+
+    &:hover {
+        background: $primary_color;
+        color: $white_color;
+    }
+
+    &.logo {
+        font-weight: bold;
+        padding: 1em;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    li {
+        a {
+            padding: 1em;
+            display: inline-block;
+        }
+    }
+}
